@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: #fffdfd;
+    
+}
+.logonav{
+    width: 350px;
+    padding-top: 45px;
+}
+.navlinks{
+    padding: 10px;
+}
+.navlinks li{
+    display: inline;
+    padding-inline: 20px;
+}
+.navlinks li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #293133;
+}
+.clublisttest{
+    top: 0;
+    background-image: url(/images/simu.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h2{
+    padding-top: 260px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.clublisttest p{
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+    color: white;
+    background-color: #293133;
+}
+.clubtype{
+    border-radius: 75px;
+    text-align: center;
+    background-color: #fffdfd;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 10px;
+}
+.clubtype li{
+    display: inline;
+    padding-inline: 30px;
+    
+}
+.selected{
+    font-weight: bold;
+    border-bottom: #293133 5px solid;
+
+}
+.clubtype li a{
+    text-decoration: none;
+    color: #293133;
+    font-size: 30px;
+}
+.testlist{
+    margin:5px 120px;
+    margin-bottom: 50px;
+    background-color: #fffdfd;
+    padding: 10px 100px;
+    border: solid 1px;
+    border-radius: 20px;
+}
+.testlist h3{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.testlist li{
+    font-size: 20px;
+    
+}
+.footer{
+    background-color: #293133;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+.footer p{
+    color: #d3d3d3;
+    font-size: 12px;
+}
